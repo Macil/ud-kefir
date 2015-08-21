@@ -2,8 +2,9 @@
   "name": "ud-kefir",
   "version": "1.0.0",
   "description": "Utility to treat code updates as Kefir streams",
-  "main": "index.js",
+  "main": "js/index.js",
   "scripts": {
+    "prepublish": "babel -s inline -d js/ src/",
     "test": "mocha"
   },
   "repository": {
@@ -19,7 +20,6 @@
     "ud",
     "livereload",
     "live",
-    "edit",
     "hot",
     "reload",
     "hmr"
@@ -29,5 +29,16 @@
   "bugs": {
     "url": "https://github.com/AgentME/ud-kefir/issues"
   },
-  "homepage": "https://github.com/AgentME/ud-kefir#readme"
+  "homepage": "https://github.com/AgentME/ud-kefir#readme",
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "kefir": "^2.7.2",
+    "mocha": "^2.2.5"
+  },
+  "peerDependencies": {
+    "kefir": "^2.0.0"
+  },
+  "dependencies": {
+    "ud": "^1.0.1"
+  }
 }
