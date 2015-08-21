@@ -1,0 +1,33 @@
+{
+  "name": "ud-kefir",
+  "version": "1.0.0",
+  "description": "Utility to treat code updates as Kefir streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgentME/ud-kefir.git"
+  },
+  "keywords": [
+    "kefir",
+    "kefir.js",
+    "frp",
+    "streams",
+    "reactive",
+    "ud",
+    "livereload",
+    "live",
+    "edit",
+    "hot",
+    "reload",
+    "hmr"
+  ],
+  "author": "Chris Cowan <agentme49@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AgentME/ud-kefir/issues"
+  },
+  "homepage": "https://github.com/AgentME/ud-kefir#readme"
+}
