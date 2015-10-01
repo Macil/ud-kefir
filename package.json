@@ -1,6 +1,6 @@
 {
   "name": "ud-kefir",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Utility to treat code updates as Kefir streams",
   "main": "js/index.js",
   "scripts": {
@@ -32,12 +32,12 @@
   "homepage": "https://github.com/AgentME/ud-kefir#readme",
   "devDependencies": {
     "babel": "^5.8.21",
-    "kefir": "^2.7.2",
-    "mocha": "^2.2.5",
-    "sinon": "^1.16.1"
+    "kefir": "^3.0.0",
+    "mocha": "^2.3.3",
+    "sinon": "^1.17.1"
   },
   "peerDependencies": {
-    "kefir": "^2.0.0"
+    "kefir": "^3.0.0"
   },
   "dependencies": {
     "ud": "^1.0.1 || ^2.0.0"
