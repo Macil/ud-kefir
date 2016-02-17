@@ -101,3 +101,8 @@ module.exports = getUserInputStream;
 Any changes to the `implementation` function, such as to increase the types of
 keys it listens to or even to add other events for it to listen to besides
 keydown, will be immediately reflected in the running program.
+
+## Types
+
+Full [Flow Type](http://flowtype.org/) declarations for this module are
+included!
