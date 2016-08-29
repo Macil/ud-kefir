@@ -104,5 +104,5 @@ keydown, will be immediately reflected in the running program.
 
 ## Types
 
-Full [Flow Type](http://flowtype.org/) declarations for this module are
-included!
+[Flow](https://flowtype.org/) type declarations for this module are included!
+If you are using Flow, they won't require any configuration to use.

@@ -1,10 +1,9 @@
 /* @flow */
-//jshint ignore:start
 
 const Kefir = require('kefir');
 import {defonce} from 'ud';
 
-export default function udKefir<T>(module: typeof module, value: T, key?:string=''): Kefir.Stream<T> {
+export default function udKefir<T>(module: typeof module, value: T, key?:string=''): Kefir.Property<T> {
   const sharedObject = defonce(module, () => {
     let maybeEmitter;
     const stream = Kefir.stream(_emitter => {

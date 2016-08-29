@@ -1,5 +1,4 @@
 /* @flow */
-//jshint ignore:start
 
 const assert = require('assert');
 const sinon = require('sinon');
