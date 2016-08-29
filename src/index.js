@@ -13,7 +13,7 @@ export default function udKefir<T>(module: typeof module, value: T, key?:string=
     // force the property to be active to set and remember its current value.
     property.onValue(()=>{});
 
-    if (!maybeEmitter) throw new Error("Should not happen, emitter was not set");
+    if (!maybeEmitter) throw new Error('Should not happen, emitter was not set');
     const emitter = maybeEmitter;
 
     return {

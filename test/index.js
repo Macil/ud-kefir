@@ -2,11 +2,10 @@
 
 const assert = require('assert');
 const sinon = require('sinon');
-const Kefir = require('kefir');
-import udKefir from '../src'
+import udKefir from '../src';
 
-describe("ud-kefir", function() {
-  it("works if no module.hot", function(done) {
+describe('ud-kefir', function() {
+  it('works if no module.hot', function(done) {
     const obj = {};
     udKefir(({}:any), obj).onValue(value => {
       assert.strictEqual(value, obj);
@@ -14,7 +13,7 @@ describe("ud-kefir", function() {
     });
   });
 
-  it("works over two reloads", function() {
+  it('works over two reloads', function() {
     let _module1: any = {
       hot: {
         data: null,
