@@ -1,6 +1,6 @@
 {
   "name": "ud-kefir",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "Utility to treat code updates as Kefir streams",
   "main": "js/index.js",
   "scripts": {
