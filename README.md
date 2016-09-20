@@ -1,5 +1,8 @@
 # ud-kefir
 
+[![Circle CI](https://circleci.com/gh/AgentME/ud-kefir.svg?style=shield)](https://circleci.com/gh/AgentME/ud-kefir)
+[![npm version](https://badge.fury.io/js/ud-kefir.svg)](https://badge.fury.io/js/ud-kefir)
+
 A companion utility to [ud](https://github.com/AgentME/ud) for exposing new
 values from hot module replacements as
 [Kefir](https://rpominov.github.io/kefir/) streams. It's split out from ud only
