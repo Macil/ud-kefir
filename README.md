@@ -1,7 +1,6 @@
 # ud-kefir
 
-[![Circle CI](https://circleci.com/gh/AgentME/ud-kefir.svg?style=shield)](https://circleci.com/gh/AgentME/ud-kefir)
-[![npm version](https://badge.fury.io/js/ud-kefir.svg)](https://badge.fury.io/js/ud-kefir)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AgentME/ud-kefir/blob/master/LICENSE.txt) [![npm version](https://img.shields.io/npm/v/ud-kefir.svg?style=flat)](https://www.npmjs.com/package/ud-kefir) [![CircleCI Status](https://circleci.com/gh/AgentME/ud-kefir.svg?style=shield)](https://circleci.com/gh/AgentME/ud-kefir)
 
 A companion utility to [ud](https://github.com/AgentME/ud) for exposing new
 values from hot module replacements as
