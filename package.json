@@ -47,7 +47,7 @@
     "flow-copy-source": "^2.0.0",
     "kefir": "^3.5.1",
     "mocha": "^5.2.0",
-    "sinon": "^5.0.10"
+    "sinon": "^6.0.0"
   },
   "peerDependencies": {
     "kefir": "^3.5.1"
