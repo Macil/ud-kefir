@@ -4,7 +4,7 @@
   "description": "Utility to treat code updates as Kefir streams",
   "main": "js/index.js",
   "scripts": {
-    "prepublish": "babel -s inline -d js/ src/ && flow-copy-source -v src js",
+    "prepublish": "rimraf js/ && babel -s inline -d js/ src/ && flow-copy-source -v src js",
     "test": "yarn run lint && yarn run flow_check && mocha",
     "flow_check": "flow check",
     "lint": "eslint .",
@@ -47,6 +47,7 @@
     "flow-copy-source": "^2.0.0",
     "kefir": "^3.5.1",
     "mocha": "^5.2.0",
+    "rimraf": "^2.6.2",
     "sinon": "^6.0.0"
   },
   "peerDependencies": {
