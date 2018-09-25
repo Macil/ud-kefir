@@ -1,3 +1,7 @@
+## 2.2.0 (2018-09-25)
+
+* Added [TypeScript](https://www.typescriptlang.org/) type definitions.
+
 ## 2.1.0 (2016-08-29)
 
 * Improved [Flow](https://flow.org/) type definitions.
