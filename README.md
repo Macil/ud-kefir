@@ -1,10 +1,10 @@
 # ud-kefir
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AgentME/ud-kefir/blob/master/LICENSE.txt) [![npm version](https://img.shields.io/npm/v/ud-kefir.svg?style=flat)](https://www.npmjs.com/package/ud-kefir) [![CircleCI Status](https://circleci.com/gh/AgentME/ud-kefir.svg?style=shield)](https://circleci.com/gh/AgentME/ud-kefir) [![Greenkeeper badge](https://badges.greenkeeper.io/AgentME/ud-kefir.svg)](https://greenkeeper.io/)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Macil/ud-kefir/blob/master/LICENSE.txt) [![npm version](https://img.shields.io/npm/v/ud-kefir.svg?style=flat)](https://www.npmjs.com/package/ud-kefir) [![CircleCI Status](https://circleci.com/gh/Macil/ud-kefir.svg?style=shield)](https://circleci.com/gh/Macil/ud-kefir) [![Greenkeeper badge](https://badges.greenkeeper.io/Macil/ud-kefir.svg)](https://greenkeeper.io/)
 
-A companion utility to [ud](https://github.com/AgentME/ud) for exposing new
+A companion utility to [ud](https://github.com/Macil/ud) for exposing new
 values from hot module replacements as
-[Kefir](https://rpominov.github.io/kefir/) streams. It's split out from ud only
+[Kefir](https://kefirjs.github.io/kefir/) streams. It's split out from ud only
 to avoid making ud require a Kefir peer dependency.
 
 ## API
