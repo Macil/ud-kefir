@@ -3,6 +3,7 @@
   "version": "2.1.0",
   "description": "Utility to treat code updates as Kefir streams",
   "main": "js/index.js",
+  "sideEffects": false,
   "scripts": {
     "prepublish": "rimraf js/ && babel -s inline -d js/ src/ && flow-copy-source -v src js",
     "test": "yarn run lint && yarn run flow_check && mocha",
